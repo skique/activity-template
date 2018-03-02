@@ -101,16 +101,21 @@ export default {
     // --------------------活动管理-------------------------------
     fetchTopicListData (params, methods, id) {
       // 获取专题模板列表
-      let url = '/web/adm/activity/topic/list'
+      let url = '/admin_demo_api/activity/topic/list'
       if (id) {
         url += '/'
         url += id
       }
       return fetch(url, params, methods)
     },
+    addTopicListData (params) {
+      // 添加专题模板列表
+      let url = '/admin_demo_api/activity/topic/add'
+      return fetch(url, params, 'post')
+    },
     unlock (params) {
       // 解锁专题模板
-      let url = '/web/adm/activity/topic/unlock'
+      let url = '/admin_demo_api/activity/topic/unlock'
       return fetch(url, params, 'put')
     },
     templateClone (params) {

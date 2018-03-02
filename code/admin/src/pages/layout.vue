@@ -116,9 +116,9 @@
         menu: [
           {
             id: 1,
-            icon: 'file-code-o',
+            icon: 'support',
             link: '',
-            name: '页面管理',
+            name: '活动管理',
             children: [
               {
                 id: 22,
@@ -129,17 +129,16 @@
               },
               {
                 id: 2,
-                icon: 'file-code-o',
+                icon: 'support',
                 link: '',
-                name: '首页管理',
+                name: '活动管理',
                 children: [
                   {
-                    id: 6,
-                    icon: 'user-o',
-                    link: '/pageManagement/mAndApp',
-                    name: 'APP&M版首页管理',
-                    children: [
-                    ]
+                    id: 15,
+                    icon: 'sun-o',
+                    link: '/activity/topic/list',
+                    name: '专题活动模板',
+                    children: []
                   }
                 ]
               }
@@ -200,22 +199,22 @@
                 ]
               }
             ]
-          },
-          {
-            id: 14,
-            icon: 'support',
-            link: '',
-            name: '活动管理',
-            children: [
-              {
-                id: 15,
-                icon: 'sun-o',
-                link: '/activity/topic/list',
-                name: '专题活动模板',
-                children: []
-              }
-            ]
           }
+          // {
+          //   id: 14,
+          //   icon: 'support',
+          //   link: '',
+          //   name: '活动管理',
+          //   children: [
+          //     {
+          //       id: 15,
+          //       icon: 'sun-o',
+          //       link: '/activity/topic/list',
+          //       name: '专题活动模板',
+          //       children: []
+          //     }
+          //   ]
+          // }
         ]
       }
     },
